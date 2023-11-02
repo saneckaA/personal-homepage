@@ -1,0 +1,8 @@
+[
+    {"id": 1, "skill": "TypeScript"},
+    {"id": 2, "skill": "MySQL"},
+    {"id": 3, "skill": "PHP"},
+    {"id": 4, "skill": "Python"},
+    {"id": 7, "skill": "Docker"},
+    {"id": 7, "skill": "Bootstrap"}
+]
