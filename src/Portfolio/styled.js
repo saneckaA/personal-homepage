@@ -45,6 +45,11 @@ export const Project = styled.div`
    height: 322px;
    background: white;
    border: 6px solid rgba(209, 213, 218, 0.3);
+   cursor: pointer;
+
+   &:hover {
+    outline: 3px solid violet;
+   }
 `;
 
 export const Content = styled.div`
@@ -75,6 +80,9 @@ export const DemoAndCode = styled.div`
 
 export const Demo = styled.div`
 
+`;
+export const Link = styled.a`
+   color: rgba(3, 102, 214, 1);
 `;
 
 export const Code = styled.div`

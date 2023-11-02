@@ -43,7 +43,7 @@ export const Info = styled.div`
    color: rgba(110, 126, 145, 1);
 `;
 
-export const HireMe = styled.div`
+export const HireMe = styled.a`
    width: 154px;
    height: 49px;
    border-radius: 4px;
@@ -54,4 +54,11 @@ export const HireMe = styled.div`
    align-items: center;
    justify-content: center;
    gap: 10px;
+   text-decoration: none;
+   cursor: pointer;
+   transition: 0.8s;
+
+   &:hover {
+     transform: scale(1.1);
+   }
 `;

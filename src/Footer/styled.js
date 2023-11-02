@@ -17,10 +17,22 @@ export const Mail = styled.div`
    line-height: 38px;
 `;
 
+export const Link = styled.a`
+   text-decoration: none;
+   &:hover {
+    color: rgb(66, 135, 245);
+   }
+
+   &:active {
+    color: violet;
+   }
+`;
+
 export const Text = styled.div`
    font-weight: 400;
    font-size: 18px;
    line-height: 25px;
+   text-align: justify;
 `;
 
 export const Links = styled.div`
@@ -29,10 +41,10 @@ export const Links = styled.div`
    gap: 15px;
 `;
 
-export const GitHub = styled.div`
+export const GitHub = styled.a`
 
 `;
 
-export const LinkedIn = styled.div`
+export const LinkedIn = styled.a`
 
 `;

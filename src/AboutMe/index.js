@@ -12,7 +12,7 @@ const AboutMe = () => {
             <Details>
                 <Name>Aleksandra Sanecka</Name>
                 <Info>I'm a passionate Frontend Developer in love with React, currently looking for new job opportunities.</Info>
-                <HireMe>
+                <HireMe href='mailto: a.saneckaa@gmail.com'>
                     <img src={message} />
                     Hire Me
                 </HireMe>
