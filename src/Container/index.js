@@ -2,6 +2,8 @@ import React from 'react';
 import { Wrapper } from './styled';
 import AboutMe from '../AboutMe';
 import Skills from '../Skills';
+import Portfolio from '../Portfolio';
+import Footer from '../Footer';
 
 const Container = () => {
     return (
@@ -9,6 +11,8 @@ const Container = () => {
             <AboutMe />
             <Skills skillsTitle='My skillset includes' skills='my skills' />
             <Skills skillsTitle='What I want to learn next' skills='next skills' />
+            <Portfolio />
+            <Footer />
         </Wrapper>
     )
 }
