@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
    display: flex;
    flex-direction: column;
    gap: 24px;
+
+   @media (max-width: 767px) {
+    width: auto;
+   }
 `;
 
 export const Header = styled.div`
@@ -26,12 +30,23 @@ export const Title = styled.div`
    font-size: 30px;
    line-height: 36.31px;
    color: ${({theme}) => theme.text};
+
+   @media (max-width: 767px) {
+    font-size: 18px;
+    line-height: 21.78px;
+   }
 `;
+
 export const SubTitle = styled.div`
    font-weight: 400;
    font-size: 20px;
    line-height: 28px;
    color: ${({theme}) => theme.text};
+
+   @media (max-width: 767px) {
+    font-size: 17px;
+    line-height: 23.8px;
+   }
 `;
 
 export const Projects = styled.div`
@@ -40,6 +55,12 @@ export const Projects = styled.div`
    display: grid;
    grid-template-columns: repeat(2, 592px);
    grid-gap: 30px;
+
+   @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    margin-right: 10px;
+    margin-left: 10px;
+   }
 `;
 
 export const Project = styled.div`
@@ -52,6 +73,11 @@ export const Project = styled.div`
    &:hover {
     outline: 3px solid violet;
    }
+
+   @media (max-width:767px) {
+    width: 288px;
+    height: 230px;
+   }
 `;
 
 export const Content = styled.div`
@@ -59,6 +85,11 @@ export const Content = styled.div`
    flex-direction: column;
    gap: 24px;
    margin: 60px;
+
+   @media (max-width: 767px) {
+    margin: 20px;
+    gap: 12px;
+   }
 `;
 
 export const Name = styled.div`
@@ -66,6 +97,11 @@ export const Name = styled.div`
    font-size: 24px;
    line-height: 29px;
    color: ${({theme}) => theme.projectTitle};
+
+   @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: 19.36px;
+   }
 `;
 
 export const Description = styled.div`
@@ -74,10 +110,20 @@ export const Description = styled.div`
    line-height: 25.2px;
    color: ${({theme}) => theme.projectDescription};
    text-align: justify;
+
+   @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 16.94px;
+   }
 `;
 
 export const DemoAndCode = styled.div`
    color: ${({theme}) => theme.projectDescription};
+
+   @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 16.94px;
+   }
 `;
 
 export const Demo = styled.div`

@@ -9,6 +9,12 @@ export const Wrapper = styled.div`
    background: ${({theme}) => theme.tileBcg};
    border-radius: 4px;
    box-shadow: ${({theme}) => theme.boxshadow};
+
+   @media (max-width: 767px) {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
 `; 
 
 export const Title = styled.div`
@@ -20,6 +26,11 @@ export const Title = styled.div`
    margin-right: 40px;
    margin-top: 40px;
    color: ${({theme}) => theme.text};
+
+   @media (max-width: 767px) {
+    font-size: 18px;
+    line-height: 21.78px;
+   }
 `;
 
 export const SkillsList = styled.ul`
@@ -27,6 +38,10 @@ export const SkillsList = styled.ul`
    grid-template-columns: repeat(3, 1fr);
    gap: 10px;
    margin-bottom: 40px;
+
+   @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+   }
 `;
 
 export const Skill = styled.li`
@@ -36,5 +51,10 @@ export const Skill = styled.li`
    grid-template-columns: auto 1fr;
    gap: 24px;
    align-items: center;
-   color: ${({theme}) => theme.text}
+   color: ${({theme}) => theme.text};
+
+   @media (max-width: 767px ) {
+    font-size: 14px;
+    line-height: 16.94px;
+   }
 `;

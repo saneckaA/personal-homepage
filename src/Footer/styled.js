@@ -9,12 +9,22 @@ export const Wrapper = styled.div`
    gap: 24px;
    margin-left: 75px;
    margin-top: 30px;
+
+   @media (max-width: 767px) {
+    width: 288px;
+    margin: auto;
+   }
 `;
 
 export const Mail = styled.div`
    font-weight: 900;
    font-size: 32px;
    line-height: 38px;
+
+   @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: 19.36px;
+   }
 `;
 
 export const Link = styled.a`
@@ -34,6 +44,11 @@ export const Text = styled.div`
    line-height: 25px;
    text-align: justify;
    color: ${({theme}) => theme.text};
+
+   @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 16.94px;
+   }
 `;
 
 export const Links = styled.div`

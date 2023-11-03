@@ -8,7 +8,13 @@ export const About = styled.div`
    gap: 19px;
    align-items: center;
 
-  
+   @media (max-width: 767px) {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+   }
 `;
 
 export const Image = styled.div`
@@ -21,6 +27,15 @@ export const Image = styled.div`
     border-radius: 50%;
     }
 
+    @media (max-width: 797px) {
+        width: 128px;
+        height: 128px;
+
+        img {
+            width: 128px;
+            height: 128px;
+        }
+    }
 `;
 
 export const Details = styled.div`
@@ -30,6 +45,10 @@ export const Details = styled.div`
    flex-direction: column;
    align-items: flex-start;
    gap: 20px;
+
+   @media (max-width: 767px) {
+    height: auto;
+   }
 `;
 
 export const Name = styled.div`
@@ -38,7 +57,10 @@ export const Name = styled.div`
    line-height: 45.99px;
    color: ${({theme}) => theme.text};
 
-  
+   @media (max-width: 767px) {
+    font-size: 22px;
+    line-height: 26px;
+   }
 `;
 
 export const Info = styled.div`
@@ -46,6 +68,11 @@ export const Info = styled.div`
    font-size: 20px;
    line-height: 28px;
    color: ${({theme}) => theme.subtitle};
+
+   @media (max-width: 767px) {
+    font-size: 17px;
+    line-height: 23.8px;
+   }
 
 `;
 
@@ -66,5 +93,10 @@ export const HireMe = styled.a`
 
    &:hover {
      transform: scale(1.1);
+   }
+
+   @media (max-width: 767px) {
+    width: 138px;
+    height: 46px;
    }
 `;
