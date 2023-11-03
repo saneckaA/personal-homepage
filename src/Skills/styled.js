@@ -6,19 +6,20 @@ export const Wrapper = styled.div`
    display: flex;
    flex-direction: column;
    gap: 10px;
-   background: white;
+   background: ${({theme}) => theme.tileBcg};
    border-radius: 4px;
-   box-shadow: rgba(186, 199, 213, 0.5) 0px 4px 12px;
+   box-shadow: ${({theme}) => theme.boxshadow};
 `; 
 
 export const Title = styled.div`
    font-size: 30px;
    font-weight: 900;
    padding-bottom: 10px;
-   border-bottom: 1px solid lightgray;
+   border-bottom: 1px solid ${({theme}) => theme.skillsBorderBottom};
    margin-left: 40px;
    margin-right: 40px;
    margin-top: 40px;
+   color: ${({theme}) => theme.text};
 `;
 
 export const SkillsList = styled.ul`
@@ -35,4 +36,5 @@ export const Skill = styled.li`
    grid-template-columns: auto 1fr;
    gap: 24px;
    align-items: center;
+   color: ${({theme}) => theme.text}
 `;

@@ -25,11 +25,13 @@ export const Title = styled.div`
    font-weight: 900;
    font-size: 30px;
    line-height: 36.31px;
+   color: ${({theme}) => theme.text};
 `;
 export const SubTitle = styled.div`
    font-weight: 400;
    font-size: 20px;
    line-height: 28px;
+   color: ${({theme}) => theme.text};
 `;
 
 export const Projects = styled.div`
@@ -43,7 +45,7 @@ export const Projects = styled.div`
 export const Project = styled.div`
    width: 592px;
    height: 322px;
-   background: white;
+   background: ${({theme}) => theme.tileBcg};
    border: 6px solid rgba(209, 213, 218, 0.3);
    cursor: pointer;
 
@@ -63,19 +65,19 @@ export const Name = styled.div`
    font-weight: 700;
    font-size: 24px;
    line-height: 29px;
-   color: rgba(3, 102, 214, 1);
+   color: ${({theme}) => theme.projectTitle};
 `;
 
 export const Description = styled.div`
    font-weight: 400;
    font-size: 18px;
    line-height: 25.2px;
-   color: rgba(110, 126, 145, 1);
+   color: ${({theme}) => theme.projectDescription};
    text-align: justify;
 `;
 
 export const DemoAndCode = styled.div`
-   color: rgba(110, 126, 145, 1);
+   color: ${({theme}) => theme.projectDescription};
 `;
 
 export const Demo = styled.div`

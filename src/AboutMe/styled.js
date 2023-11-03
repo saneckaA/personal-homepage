@@ -5,8 +5,10 @@ export const About = styled.div`
    height: auto;
    display: flex;
    flex-direction: row;
-   gap: 54px;
+   gap: 19px;
    align-items: center;
+
+  
 `;
 
 export const Image = styled.div`
@@ -18,10 +20,11 @@ export const Image = styled.div`
     height: 398px;
     border-radius: 50%;
     }
+
 `;
 
 export const Details = styled.div`
-   width: 633px;
+   width: auto;
    height: 247px;
    display: flex;
    flex-direction: column;
@@ -33,14 +36,17 @@ export const Name = styled.div`
    font-weight: 900;
    font-size: 38px;
    line-height: 45.99px;
-   color: rgba(37, 37, 37, 1);
+   color: ${({theme}) => theme.text};
+
+  
 `;
 
 export const Info = styled.div`
    font-weight: 400;
    font-size: 20px;
    line-height: 28px;
-   color: rgba(110, 126, 145, 1);
+   color: ${({theme}) => theme.subtitle};
+
 `;
 
 export const HireMe = styled.a`

@@ -33,6 +33,7 @@ export const Text = styled.div`
    font-size: 18px;
    line-height: 25px;
    text-align: justify;
+   color: ${({theme}) => theme.text};
 `;
 
 export const Links = styled.div`
@@ -42,9 +43,13 @@ export const Links = styled.div`
 `;
 
 export const GitHub = styled.a`
-
+   img {
+    background: white;
+   }
 `;
 
 export const LinkedIn = styled.a`
-
+   img {
+    background: white;
+   }
 `;
