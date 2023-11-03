@@ -1,11 +1,21 @@
+import { ThemeProvider } from 'styled-components';
 import Container from './Container';
 import { GlobalStyle } from './GlobalStyle';
+import { useState } from 'react';
+import { darkTheme, lightTheme } from './theme';
+import { useSwitchTheme } from './useSwitchTheme';
 
 function App() {
+
+  const [theme, setTheme] = useSwitchTheme();
+
   return (
     <>
-      <GlobalStyle />
-      <Container />
+      <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+        <GlobalStyle />
+        <Container setTheme={setTheme} />
+      </ThemeProvider>
+
     </>
 
   );

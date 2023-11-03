@@ -5,10 +5,10 @@ import Skills from '../Skills';
 import Portfolio from '../Portfolio';
 import Footer from '../Footer';
 
-const Container = () => {
+const Container = ({setTheme}) => {
     return (
         <Wrapper>
-            <AboutMe />
+            <AboutMe setTheme={setTheme} />
             <Skills skillsTitle='My skillset includes' skills='my skills' />
             <Skills skillsTitle='What I want to learn next' skills='next skills' />
             <Portfolio />
