@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgba(251, 251, 254, 1);
+  background: ${({theme}) => theme.bodyBcg};
 }
 
 code {
