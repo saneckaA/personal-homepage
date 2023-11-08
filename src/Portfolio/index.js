@@ -48,7 +48,7 @@ const Portfolio = () => {
                         <Name>Currency exchange</Name>
                         <Description>Using this application you can check currency rates</Description>
                         <DemoAndCode>
-                            <Demo>Demo:</Demo>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/currency-converter-react/'>https://saneckaa.github.io/currency-converter-react/</Link></Demo>
                             <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/currency-converter-react'>https://github.com/saneckaA/currency-converter-react</Link></Code>
                         </DemoAndCode>
                     </Content>
