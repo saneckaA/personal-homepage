@@ -63,6 +63,16 @@ const Portfolio = () => {
                         </DemoAndCode>
                     </Content>
                 </Project>
+                <Project>
+                    <Content>
+                        <Name>My travel - first project</Name>
+                        <Description>This project is my first one and it's about my travel to South Korea. </Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/South_Korea-travel/'>https://saneckaa.github.io/South_Korea-travel/</Link></Demo>
+                            <Code>Code: <Link target='blank' href='https://github.com/saneckaA/South_Korea-travel'>https://github.com/saneckaA/South_Korea-travel</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
 
             </Projects>
         </Wrapper>
