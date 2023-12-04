@@ -46,7 +46,7 @@ const Portfolio = () => {
                 <Project>
                     <Content>
                         <Name>Currency exchange</Name>
-                        <Description>Using this application you can check currency rates</Description>
+                        <Description>Using this application you can check currency rates.</Description>
                         <DemoAndCode>
                             <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/currency-converter-react/'>https://saneckaa.github.io/currency-converter-react/</Link></Demo>
                             <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/currency-converter-react'>https://github.com/saneckaA/currency-converter-react</Link></Code>
@@ -55,18 +55,58 @@ const Portfolio = () => {
                 </Project>
                 <Project>
                     <Content>
-                        <Name>Weather app</Name>
-                        <Description></Description>
+                        <Name>Email subscribe card</Name>
+                        <Description>This is my first mini project while learning Tailwind CSS.</Description>
                         <DemoAndCode>
-                            <Demo>Demo:</Demo>
-                            <Code>Code:</Code>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/Email-subscribe-card-react/'>https://saneckaa.github.io/Email-subscribe-card-react/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/Email-subscribe-card-react'>https://github.com/saneckaA/Email-subscribe-card-react</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Pricing grids</Name>
+                        <Description>This is my one of the mini projects while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/pricing-grids-card-react-tailwind/'>https://saneckaa.github.io/product-modal-card-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/pricing-grids-card-react-tailwind'>https://github.com/saneckaA/product-modal-card-react-tailwind</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Product modal</Name>
+                        <Description>This is my one of the mini projects while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/product-modal-card-react-tailwind/'>https://saneckaa.github.io/product-modal-card-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/product-modal-card-react-tailwind'>https://github.com/saneckaA/product-modal-card-react-tailwind</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Image gallery</Name>
+                        <Description>This is my one of the mini projects while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/image-gallery-card-react-tailwind/'>https://saneckaa.github.io/image-gallery-card-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/image-gallery-card-react-tailwind'>https://github.com/saneckaA/image-gallery-card-react-tailwind</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Login modal</Name>
+                        <Description>This is my one of the mini projects while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/login-modal-react-tailwind/'>https://saneckaa.github.io/login-modal-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/login-modal-react-tailwind'>https://github.com/saneckaA/login-modal-react-tailwind</Link></Code>
                         </DemoAndCode>
                     </Content>
                 </Project>
                 <Project>
                     <Content>
                         <Name>My travel - first project</Name>
-                        <Description>This project is my first one and it's about my travel to South Korea. </Description>
+                        <Description>This project is my first one while learing JavaScript and it's about my travel to South Korea. </Description>
                         <DemoAndCode>
                             <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/South_Korea-travel/'>https://saneckaa.github.io/South_Korea-travel/</Link></Demo>
                             <Code>Code: <Link target='blank' href='https://github.com/saneckaA/South_Korea-travel'>https://github.com/saneckaA/South_Korea-travel</Link></Code>
