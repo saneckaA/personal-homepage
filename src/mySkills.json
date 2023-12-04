@@ -21,6 +21,6 @@
     {"id": 20, "skill": "NPM"},
     {"id": 21, "skill": "Git"},
     {"id": 22, "skill": "Figma"},
-    {"id": 23, "skill": "Trello"}
+    {"id": 23, "skill": "Trello"},
     {"id": 24, "skill": "Tailwind CSS"}
 ]
