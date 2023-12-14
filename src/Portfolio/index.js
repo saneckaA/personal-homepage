@@ -15,7 +15,7 @@ const Portfolio = () => {
             <Projects>
                 <Project>
                     <Content>
-                        <Name>Movies Browser</Name>
+                        <Name>Movie Browser</Name>
                         <Description>This application allows you to search through a list of movies and actors.</Description>
                         <DemoAndCode>
                             <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/Movies-browser-react/'>https://saneckaa.github.io/Movies-browser-react/</Link></Demo>
@@ -50,6 +50,56 @@ const Portfolio = () => {
                         <DemoAndCode>
                             <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/currency-converter-react/'>https://saneckaa.github.io/currency-converter-react/</Link></Demo>
                             <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/currency-converter-react'>https://github.com/saneckaA/currency-converter-react</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Bookmark manager</Name>
+                        <Description>This is one of the project while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/bookmark-manager-react-tailwind/'>https://saneckaa.github.io/bookmark-manager-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/bookmark-manager-react-tailwind'>https://github.com/saneckaA/bookmark-manager-react-tailwind</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Fylo website</Name>
+                        <Description>This is one of the project while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/fylo-website-react-tailwind/'>https://saneckaa.github.io/fylo-website-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/fylo-website-react-tailwind'>https://github.com/saneckaA/fylo-website-react-tailwind</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Shortly website</Name>
+                        <Description>This is one of the project while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/shortly-website-react-tailwind/'>https://saneckaa.github.io/shortly-website-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/shortly-website-react-tailwind'>https://github.com/saneckaA/shortly-website-react-tailwind</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Loopstudios website</Name>
+                        <Description>This is one of the project while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/loopstudios-website-react-tailwind/'>https://saneckaa.github.io/loopstudios-website-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/loopstudios-website-react-tailwind'>https://github.com/saneckaA/loopstudios-website-react-tailwind</Link></Code>
+                        </DemoAndCode>
+                    </Content>
+                </Project>
+                <Project>
+                    <Content>
+                        <Name>Clipboard website</Name>
+                        <Description>This is one of the project while learning Tailwind CSS.</Description>
+                        <DemoAndCode>
+                            <Demo>Demo: <Link target='_blank' href='https://saneckaa.github.io/clipboard-website-react-tailwind/'>https://saneckaa.github.io/clipboard-website-react-tailwind/</Link></Demo>
+                            <Code>Code: <Link target='_blank' href='https://github.com/saneckaA/clipboard-website-react-tailwind'>https://github.com/saneckaA/clipboard-website-react-tailwind</Link></Code>
                         </DemoAndCode>
                     </Content>
                 </Project>
