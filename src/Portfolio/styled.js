@@ -127,12 +127,14 @@ export const DemoAndCode = styled.div`
 `;
 
 export const Demo = styled.div`
-
+   span {
+      font-weight: 700;
+   }
 `;
 export const Link = styled.a`
    color: rgba(3, 102, 214, 1);
 `;
 
-export const Code = styled.div`
+export const Code = styled(Demo)`
 
 `;
